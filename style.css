@@ -82,8 +82,8 @@ nav.glass {
     letter-spacing: 2px;
 }
 
-.logo span {
-    color: var(--accent-primary);
+logo span:not(.ar-highlight) {
+  color: var(--accent-primary);
 }
 
 nav ul {
