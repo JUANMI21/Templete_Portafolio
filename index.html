@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Developer | Portfolio Premium</title>
+    <meta name="description" content="Portafolio de Realidad Aumentada - Explorando el futuro de la interacción digital.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+    <div class="blob-bg"></div>
+    
+    <header>
+        <nav class="glass">
+            <div class="logo">AR<span>NEXUS</span></div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-tag">Tecnología Inmersiva</div>
+                <h1 class="reveal-text">Explorando la <span>Realidad</span></h1>
+                <p class="subtitle">Desarrollador de experiencias de Realidad Aumentada de alto impacto.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">Ver Proyectos</a>
+                    <a href="https://github.com/TU_USUARIO" target="_blank" class="btn secondary">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Proyectos Seleccionados</h2>
+            <p class="section-desc">Haz clic en "Probar Ahora" para abrir la experiencia directamente desde GitHub Pages.</p>
+            
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card glass">
+                    <div class="card-image">
+                        <img src="assets/project1.png" alt="AR Concentration Monitor">
+                        <div class="badge">Activo</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>AR Concentration Monitor</h3>
+                        <p>Detección de atención y reemplazo de fondo dinámico con MediaPipe.</p>
+                        <div class="tags">
+                            <span>FaceMesh</span>
+                            <span>Three.js</span>
+                        </div>
+                        <a href="https://TU_USUARIO.github.io/AR_Viernes/" target="_blank" class="launch-btn">
+                            Probar Ahora 
+                            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card glass">
+                    <div class="card-image">
+                        <img src="assets/project2.png" alt="LSC AI Recognition">
+                    </div>
+                    <div class="card-content">
+                        <h3>LSC Sign Recognition</h3>
+                        <p>Traducción de señas en tiempo real mediante redes neuronales en el navegador.</p>
+                        <div class="tags">
+                            <span>TF.js</span>
+                            <span>WebCam</span>
+                        </div>
+                        <a href="#" target="_blank" class="launch-btn">Probar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3 -->
+                <div class="project-card glass">
+                    <div class="card-image">
+                        <img src="assets/project3.png" alt="WebXR Image Tracker">
+                    </div>
+                    <div class="card-content">
+                        <h3>Image Tracking Compiler</h3>
+                        <p>Sistema para compilar marcadores AR instantáneamente desde cualquier imagen.</p>
+                        <div class="tags">
+                            <span>MindAR</span>
+                            <span>WebGL</span>
+                        </div>
+                        <a href="#" target="_blank" class="launch-btn">Probar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4 -->
+                <div class="project-card glass">
+                    <div class="card-image">
+                        <img src="assets/project4.png" alt="3D Particle Interaction">
+                    </div>
+                    <div class="card-content">
+                        <h3>Interactive Particles</h3>
+                        <p>Simulación física de partículas que reaccionan a los gestos del usuario.</p>
+                        <div class="tags">
+                            <span>Physics</span>
+                            <span>AR</span>
+                        </div>
+                        <a href="#" target="_blank" class="launch-btn">Probar Ahora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-card glass">
+                <h2 class="section-title">Hablemos de <span>AR</span></h2>
+                <p class="contact-name">JM Sánchez — Ing. Multimedia</p>
+                <div class="contact-links">
+                    <a href="https://wa.me/57305707177" target="_blank" class="contact-item">
+                        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42 1.56 1.56 2.41 3.63 2.41 5.82 0 4.51-3.67 8.19-8.19 8.19-1.53 0-3.03-.43-4.33-1.23l-.31-.19-3.22.84.86-3.14-.21-.33c-.87-1.39-1.33-3-1.33-4.65 0-4.51 3.67-8.19 8.19-8.19m-3.53 4.63c-.19 0-.52.07-.79.37-.27.3-.6.6-.6 1.2 0 .61.44 1.19.5 1.27.06.09.86 1.32 2.09 1.85.3.13.53.21.71.27.3.1.57.08.79.05.24-.04.74-.3 1.01-.58.27-.27.27-.51.19-.58-.07-.07-.27-.12-.57-.27-.3-.15-1.78-.88-2.05-.98-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.34.22-.64.07-.3-.15-1.27-.47-2.42-1.5-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.28.3-.47.1-.2.05-.37-.02-.51-.07-.14-.67-1.62-.91-2.22-.24-.6-.5-.51-.67-.52h-.57z"/></svg>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="https://x.com/juanmi_sc" target="_blank" class="contact-item">
+                        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <span>@juanmi.sc</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 JM Sánchez - Ingeniero Multimedia. Especialista en Realidad Aumentada.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
