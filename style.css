@@ -293,7 +293,7 @@ h1 span {
 .badge.en-proceso {
   background: linear-gradient(90deg, #ff9800, #ff6d00);
   color: #fff;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .card-content {
