@@ -154,7 +154,7 @@ h1 span {
   background: linear-gradient(90deg, #00c3ff, #7b2cff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 600;
+  font-weight: 900;
   position: relative;
 }
 
