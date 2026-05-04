@@ -351,6 +351,42 @@ h1 span {
     opacity: 0.9;
 }
 
+.carousel {
+  margin: 16px 0;
+  overflow-x: auto;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 10px;
+}
+
+.carousel-track img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+<div class="tags">
+  ...
+</div>
+
+<div class="carousel">
+  <div class="carousel-track">
+    <img src="Proyecto5_1.png">
+    <img src="Proyecto5_2.png">
+    <img src="Proyecto5_3.png">
+  </div>
+</div>
+
+<video class="video-proyecto" controls muted>
+  <source src="video-proyecto5.mp4" type="video/mp4">
+</video>
+
+<a href="#" class="launch-btn">Probar Ahora</a>
+
 /* Contact Section */
 #contact {
     padding: 100px 20px;
