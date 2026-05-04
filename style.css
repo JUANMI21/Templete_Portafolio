@@ -365,27 +365,20 @@ h1 span {
   width: 120px;
   height: 80px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
   flex-shrink: 0;
   border: 1px solid rgba(255,255,255,0.2);
 }
-<div class="tags">
-  ...
-</div>
+.video-proyecto {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  margin: 10px 0 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
 
-<div class="carousel">
-  <div class="carousel-track">
-    <img src="Proyecto5_1.png">
-    <img src="Proyecto5_2.png">
-    <img src="Proyecto5_3.png">
-  </div>
-</div>
 
-<video class="video-proyecto" controls muted>
-  <source src="video-proyecto5.mp4" type="video/mp4">
-</video>
-
-<a href="#" class="launch-btn">Probar Ahora</a>
 
 /* Contact Section */
 #contact {
